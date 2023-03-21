@@ -1,0 +1,40 @@
+	/*
+  	Flaticon icon font: Flaticon
+  	Creation date: 08/09/2016 15:32
+  	*/
+
+@font-face {
+  font-family: "Flaticon";
+  src: url("../fonts/Flaticon.eot");
+  src: url("../fonts/Flaticon.eot#iefix") format("embedded-opentype"),
+       url("../fonts/Flaticon.woff") format("woff"),
+       url("../fonts/Flaticon.ttf") format("truetype"),
+       url("../fonts/Flaticon.svg#Flaticon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: "Flaticon";
+    src: url("Flaticon.svg/#Flaticon") format("svg");
+  }
+}
+
+[class^="flaticon-"]:before, [class*=" flaticon-"]:before,
+[class^="flaticon-"]:after, [class*=" flaticon-"]:after {   
+  font-family: Flaticon;
+    font-style: normal;
+}
+
+.flaticon-big-anchor:before { content: "\f100"; }
+.flaticon-gavel:before { content: "\f101"; }
+.flaticon-hand-shake:before { content: "\f102"; }
+.flaticon-interface:before { content: "\f103"; }
+.flaticon-lifeline-in-a-heart-outline:before { content: "\f104"; }
+.flaticon-link-symbol:before { content: "\f105"; }
+.flaticon-location-marker:before { content: "\f106"; }
+.flaticon-login:before { content: "\f107"; }
+.flaticon-round-glasses:before { content: "\f108"; }
+.flaticon-social:before { content: "\f109"; }
+.flaticon-two-men:before { content: "\f10a"; }
